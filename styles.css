@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'figtree';
-    src: url(./fonts/Figtree-VariableFont_wght.ttf);;
+    src: url(Figtree-VariableFont_wght.ttf);;
 }
 @font-face {
     font-family: 'figtreeBold';
@@ -15,7 +15,7 @@
 }
 @font-face {
     font-family: 'figtreeMedium';
-    src: url(./fonts/static/Figtree-Medium.ttf);
+    src: url(Figtree-Medium.ttf);
 }
 
 
@@ -97,5 +97,6 @@ h1,p{
     width: 2rem;
     height: 2rem;
 }
+
 
 
