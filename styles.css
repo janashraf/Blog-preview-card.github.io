@@ -11,7 +11,7 @@
 }
 @font-face {
     font-family: 'figtreeBold';
-    src: url(./fonts/static/Figtree-ExtraBold.ttf);
+    src: url(Figtree-ExtraBold.ttf);
 }
 @font-face {
     font-family: 'figtreeMedium';
@@ -97,6 +97,7 @@ h1,p{
     width: 2rem;
     height: 2rem;
 }
+
 
 
 
