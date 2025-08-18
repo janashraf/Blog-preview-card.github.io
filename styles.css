@@ -1,0 +1,101 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray-500: hsl(0, 0%, 42%);
+    --gray-950: hsl(0, 0%, 7%);
+}
+
+@font-face {
+    font-family: 'figtree';
+    src: url(./fonts/Figtree-VariableFont_wght.ttf);;
+}
+@font-face {
+    font-family: 'figtreeBold';
+    src: url(./fonts/static/Figtree-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'figtreeMedium';
+    src: url(./fonts/static/Figtree-Medium.ttf);
+}
+
+
+body{
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1,p{
+    color: var(--gray-950);
+}
+
+.container{
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid var(--gray-950);
+    padding: 1.5rem;
+    width: 24rem;
+    height: 32.625rem;
+    box-shadow: 10px 10px 0.4px var(--gray-950)
+    
+}
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.text{
+    margin: 1.5rem 0 0 0;
+}
+.Learning{
+    font-size: 0.875rem;
+    font-weight: 500;
+    font-family: 'figtreeBold', sans-serif;
+
+    background-color: var(--yellow);
+    width: 5.125rem;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0.3125em;
+    line-height: 150%;
+
+}
+.dates{
+    font-size: 0.875rem;
+    font-family: 'figtree', sans-serif;
+    line-height: 150%;
+    color: var(--gray-950);
+}
+.heading{
+    font-size: 1.5rem;
+    font-family: 'figtreeBold', sans-serif;
+    line-height: 150%;
+}
+.content{
+    font-size: 1rem;
+    font-family: 'figtreeMedium', sans-serif;
+    line-height: 150%;
+    color: var(--gray-500);
+    padding: 0 0.7rem 0 0;
+}
+.profile{
+    font-size: 0.875rem;
+    font-family: 'figtreeBold', sans-serif;
+    line-height: 150%;
+    color: var(--gray-950);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+    
+}
+.profile img{
+    width: 2rem;
+    height: 2rem;
+}
+
+
